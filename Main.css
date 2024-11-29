@@ -1,0 +1,110 @@
+#bod {
+    width: 1135px;
+    height: 653px;
+    background: #FFF;
+}
+
+h1 {
+    color: #8E26C0;
+    font-family: "JetBrains Mono";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#message {
+    color: #F00;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 565px;
+    padding: 24px 40px;
+    align-items: center;
+    gap: 10px;
+    background: #FFE8E8;
+}
+
+#offer {
+    color: #85647B;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 1023px;
+    padding: 24px 40px;
+    align-items: center;
+    gap: 10px;
+    border-right: 6px solid #05F;
+    border-left: 4px solid #C11574;
+}
+
+#offer2 {
+    display: flex;
+    width: 1023px;
+    padding: 24px 40px;
+    align-items: center;
+    gap: 10px;
+    background: #FFE8E8;
+    flex: 1 0 0;
+    color: #414651;
+    text-align: center;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+#offer3 {
+    color: #0064CE;
+    text-align: right;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 1069px;
+    padding: 24px 40px;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #3538CD;
+}
+
+u {
+    color: #FF4405;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+#saleImage {
+    width: 556px;
+    height: 347px;
+    flex-shrink: 0;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+img {
+    width: 556px;
+    height: 347px;
+    flex-shrink: 0;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
